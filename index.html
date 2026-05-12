@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Registro</title>
+</head>
+<body>
+
+<h2>Historia Clínica acorde con la NOM vigente 168-SSA1-1998</h2>
+<div style="text-align: center;">
+    <img src="./assets/imagen.jpg" alt="Imagen centrada">
+</div> <br>
+
+
+
+<table border="1">
+  <tr>
+    <th><p>Medico Tratante:</p>
+    <input type="text" id="Tratante" placeholder="Juan cortes" style="color:blue ;"></th>
+    <th><p>Fecha de Historia Clínica</p>
+    <input type="text" id="fecha" placeholder="2/7/2026"></th>
+    
+  </tr>
+  <tr>
+    <td><p>Nombre de Paciente:</p>
+    <input type="text" id="nombre" placeholder="Rodrigo Duarte" style="color: blue;"></td>
+    
+    <td><p>Edad</p>
+    <input type="number" id="edad" placeholder="20" style="color: blueviolet;"></td>
+    
+  </tr>
+  <tr>
+    <td><p>Domicillo</p>
+    <input type="text" id="domicillo" placeholder="1034 Carlos Canyon"></td>
+    <td><p>Teléfono:</p>
+    <input type="number" id="tel" placeholder="619882334"></td>
+    
+  </tr>
+  <tr>
+    <td><p>Datos completos de familiar responsable</p>
+    <input type="text"id="mama" placeholder="Mama(619-882-0062)" style="width:80%;">
+    <input type="text"id="papa" placeholder="Papa(+52-6642-752)" style="width:80%;">
+  </td>
+   
+      <td>Religión:
+<input type="text" id="religion" placeholder="Cristiano" style="color: red;"></td>
+    
+  </tr>
+   <tr>
+    <td><p>Fecha de Nacimiento</p>
+    <input type="text" id="nacimiento" placeholder="2/5/2007" style="color: blue;"></td>
+    <td><p>Peso</p>
+    <input type="number" id="Peso" placeholder="300" style="color: blue;"></td>
+    
+  </tr>
+  <tr>
+    
+    
+    
+  </tr>
+  <tr>
+    
+    <td><p>Sexo</p>
+    <input type="text" id="sexo" placeholder="masculino" style="color: green;"></td>
+
+    
+  </tr>
+
+
+</table>
+
+<style>
+
+table, th, td {
+
+  border:1px solid black;
+
+}
+
+</style>
+
+<body>
+
+
+
+ 
+
+<h1>Antecedentes Hereditarios y Familiares</h1>
+
+
+
+<table style="width:100%">
+
+  <tr>
+
+    <td>
+
+    <p>Antecedentes Hereditarios:</p>
+
+    <input type="text" id="Antecedentes"  placeholder="Diabetes,Alzheimer" style="color: red;">
+
+    </td>
+
+    <td><p>Familiar que lo padece</p>
+    <input type="text" id="familiar"  placeholder="Papa,Abuelo,Hermano" style="color: red;"></td>
+
+
+
+  </tr>
+
+ 
+
+
+</table> <br><br>
+
+<style>
+
+table, th, td {
+
+  border:1px solid black;
+
+}
+
+</style>
+
+<body>
+<h2>Antecedentes Personales No Patológicosa</h2>
+<table style="width:100%">
+
+  <tr>
+
+    <td>
+
+    <p>Lugar de Nacimiento:</p>
+
+    <input type="text" id="lugar"  placeholder="SAN DIEGO" style="color: black;">
+
+    </td>
+
+    <td><p>Lugar de Residencia__________Fecha</p>
+    <input type="text" id="residencia"  placeholder="Tijuana" style="color: crimson;">
+    <input type="number" id="cita" placeholder="hace 26 años" style="color: crimson;">
+</td>
+
+
+
+  </tr>
+
+  <tr>
+
+    <td><p>Hábito tabáquico</p>
+   <input type="text" id="fumar"  placeholder="nunca" style="color: darkolivegreen;">
+ </td>
+
+    <td><p>Ocupación actual</p>
+    <input type="text" id="hogar"  placeholder="hogar" style="color: orangered;"></td>
+
+ 
+
+  </tr>
+
+
+
+    <tr>
+
+    <td><p>Hábito alcohólico</p>
+    <input type="text" id="alchol"  placeholder="nunca" style="color: coral;">
+ </td>
+
+    <td><p>Tipo de Sangre</p>
+    <input type="text" id="sangre"  placeholder="A positiva" style="color: coral;"></td>
+
+ 
+
+  </tr>
+
+
+
+    <tr>
+
+    <td><p>Ejercicio</p>
+   <input type="text" id="ejercico"  placeholder="cinco veces a la semmana"  style="color: blue;"> </td>
+
+    <td><p>Hábitos de higiene</p>
+    <input type="text" id="higiene"  placeholder="dientes 5 veces " style="color: green;">
+  </td>
+
+ 
+
+  </tr>
+
+
+
+    <tr>
+
+    <td><p>Adicciones</p>
+    <input type="text" id="addiciones"  placeholder="niega"></td>
+
+    <td><p>Alergias</p>
+    <input type="text" id="alergias"  placeholder="perro"></td>
+
+ 
+
+  </tr>
+
+</table>
+
+
+<style>
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Antecedentes Personales Patológicos:</h2>
+
+<table>
+
+    <tr>
+        <th>Antecedentes</th>
+        <th>Fecha de inicio</th>
+    </tr>
+
+    <tr>
+        <td>
+            <input type="text" placeholder="varicel en la infancia" style="width:95%;" style="color: purple;">
+        </td>
+
+        <td>
+            <input type="text" placeholder="desde 7 años" style="width:95%;" style="color: purple;">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <input type="text" placeholder="fractura de brazo izaquierdo" style="width:95%;" style="color: blue;">
+        </td>
+
+        <td>
+            <input type="text" placeholder="2019" style="width:95%;" style="color: blue;">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <input type="text" placeholder="cirugia de apendice(apendicectomia)" style="width:95%;" style="color: green;">
+        </td>
+
+        <td>
+            <input type="text" placeholder="2021" style="width:95%;" style="color: green;">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <input type="text" placeholder="Asma leve" style="width:95%;" style="color: red;">
+        </td>
+
+        <td>
+            <input type="text" placeholder="inicio hace 8 años" style="width:95%;" style="color: red;">
+        </td>
+    </tr>
+
+</table>
+
+
+
+
+<style>
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 12px;
+    font-size: 18px;
+    vertical-align: top;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Antecedentes Ginecoobstétricos:</h2>
+
+<table>
+
+    <tr>
+        <td>
+            <p>Menarca:</p>
+            <input type="text"  id="menarca"  placeholder="12 años" style="color: blue;">
+        </td>
+
+        <td>
+            <p>FUR:</p>
+            <input type="text" id="fur"  placeholder="a los 45 años " style="color: red;">
+        </td>
+
+        <td>
+            <p>Método anticonceptivo:</p>
+            <input type="text" id="anticonceptivo" placeholder="ninguno" style="color: green;">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <p>G:</p>
+            <input type="number" id="G" size="2"  placeholder="3" style="color: crimson;">
+
+            <p>P:</p>
+            <input type="number"  id="P" size="2" placeholder="0" style="color: crimson;">
+
+            <p>C:</p>
+            <input type="number"  id="C"  size="2" placeholder="3" style="color: crimson;">
+
+            <p>A:</p>
+            <input type="number"  id="A" size="2" placeholder="0"  style="color: crimson;">
+        </td>
+
+        <td>
+            <p>Fecha Papanicolaou:</p>
+            <input type="text" id="papanicolaou" placeholder="Mas de 20 años" style="color: coral;">
+        </td>
+
+        <td>
+            <p>Fecha Mastografía:</p>
+            <input type="text" id="mastografía" placeholder="Nunca" style="color: blue;">
+        </td>
+    </tr>
+
+</table>
+
+
+
+<style>
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 12px;
+    vertical-align: top;
+    font-size: 18px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Medicación Actual:</h2>
+
+<table>
+
+    <tr>
+
+        <td>
+            <p>Medicamento:</p><br>
+
+            <input type="text" id="1"      placeholder="Ibuprofeno" style="color: darkgreen;" ><br><br>
+
+            <input type="text" id="2"     placeholder="Aspirina" style="color:chocolate;"><br><br>
+
+            <input type="text" id="3"    placeholder="Metformina" style="color: darkgoldenrod;">
+        </td>
+
+        <td>
+            <p>Dosis:</p><br>
+
+            <input type="text" id="4" placeholder="400mg, cada 8 horas " style="color: darkgreen;"><br><br>
+
+            <input type="text" id="5"   placeholder="500mg cada 12hrs" style="color: blue;"><br><br>
+
+            <input type="text" id="6"   placeholder="100mg una vez al dia" style="color: darkviolet;">
+        </td>
+
+        <td>
+            <p>Fecha de inicio:</p><br>
+
+            <input type="text" id="7"    placeholder="inicio 6 meses" style="color: cornflowerblue;""><br><br>
+
+            <input type="text"  id="8" placeholder="Enero 2025" style="color: orangered;"><br><br>
+
+            <input type="text" id="9"  placeholder="Hace 1 año" style="color:orange;"">
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td>
+            <p>Suplementos alimentarios:</p><br><br>
+
+            <input type="text" id="10" placeholder="Calcio"
+            style="color: cornflowerblue;"><br><br>
+
+            <input type="text" id="11" placeholder="Vitamina C"
+            style="color: orangered;"><br><br>
+
+            <input type="text" id="12" placeholder="Vitamina D"
+            style="color:orange;">
+        </td>
+
+        <td></td>
+
+        <td></td>
+
+    </tr>
+
+</table>
+
+
+
+
+<style>
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 15px;
+    height: 120px;
+    vertical-align: top;
+    font-size: 18px;
+}
+
+textarea {
+    width: 98%;
+    height: 90px;
+    resize: none;
+    font-size: 16px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Padecimiento Actual</h2>
+
+<table>
+
+    <tr>
+
+        <td>
+
+            <textarea id="texto" placeholder="Refiere inicio de padecimiento desde hace aproximadamente una semana, presentando dolor de cabeza frecuente, visión borrosa en ojo derecho y dificultad para enfocar objetos a distancia. El paciente menciona sensación de ardor ocular y lagrimeo constante, aumentando las molestias durante la noche y al exponerse a la luz intensa. Niega fiebre o pérdida del conocimiento. Se presenta para valoración médica y seguimiento del problema visual."
+            style="color:blue;"></textarea>
+
+        </td>
+
+    </tr>
+
+</table>
+
+
+
+<style>
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.tipo {
+    width: 25%;
+    font-weight: bold;
+}
+
+.info {
+    width: 75%;
+}
+
+input {
+    width: 98%;
+    border: none;
+    font-size: 16px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Interrogatorio por Aparatos y Sistemas</h2>
+
+<table>
+
+    <tr>
+        <td>Digestivo:</td>
+        <td >
+            <input type="text" id="digestivo" placeholder="Nausea, evacuacion hoy,poca tolerancia a via oral">
+        </td>
+    </tr>
+
+    <tr>
+        <td >Respiratorio:</td>
+        <td >
+            <input type="text"id=respiratorio placeholder="niega sintomas">
+        </td>
+    </tr>
+
+    <tr>
+        <td>Circulatorio:</td>
+        <td >
+            <input type="text" id="circulatorio" placeholder="Edema de miembros inferiores">
+        </td>
+    </tr>
+
+    <tr>
+        <td >Musculoesquelético:</td>
+        <td>
+            <input type="text" id="musculoesquelético" placeholder="debilididad generalizada,hipersensibilidad de miembros inferiores">
+        </td>
+    </tr>
+
+    <tr>
+        <td>Nervioso:</td>
+        <td>
+            <input type="text" id="nervioso" placeholder="Niega sintomas">
+        </td>
+    </tr>
+
+    <tr>
+        <td>Urinario:</td>
+        <td>
+            <input type="text" id="urinario"   placeholder="Disuria,presencia de sonda Foley">
+        </td>
+    </tr>
+
+    <tr>
+        <td>Reproductor:</td>
+        <td>
+            <input type="text" id="reproductor" placeholder="Interrogrados y negados">
+        </td>
+    </tr>
+
+    <tr>
+        <td>Sentidos:</td>
+        <td>
+            <input type="text" id="sentidos"    placeholder="Uso de lentes para leer">
+        </td>
+    </tr>
+
+</table>
+
+
+
+<style>
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 12px;
+    vertical-align: top;
+    font-size: 18px;
+}
+
+.signos {
+    width: 20%;
+    font-weight: bold;
+}
+
+textarea {
+    width: 98%;
+    height: 180px;
+    resize: none;
+    font-size: 16px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Exploración Física</h2>
+
+<table>
+
+    <tr>
+
+        <td>
+        <p>TA:</p>
+            <input type="text" id="ta" placeholder="120/80 mmHg"
+            style="color: forestgreen;">
+        </td>
+
+        <td>
+        <p>Pulso:</p>
+            <input type="text" id="pulso"   placeholder="80 por min"
+            style="color: aqua;">
+        </td>
+
+        <td>
+        <P>FR:</P>
+            <input type="text" id="fr" placeholder="20 por min"
+            style="color: chocolate;">
+        </td>
+
+        <td>
+           <p> Sat:</p>
+            <input type="text" id="sat"   placeholder="98%"
+            style="color: blueviolet;">
+        </td>
+
+        <td>
+        <p>Temp:</p>
+            <input type="text" id="temp"   placeholder="36.5 °C"
+            style="color: cornflowerblue;">
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td colspan="5">
+
+<textarea placeholder="Inspección: paciente consciente y orientado, con leve enrojecimiento en ojo derecho.
+
+Auscultación: ruidos cardiacos y respiratorios normales.
+
+Palpación: dolor leve en región ocular derecha.
+
+Percusión: sin alteraciones aparentes.
+
+Paciente refiere visión borrosa y utiliza lentes para lectura."></textarea>
+
+        </td>
+
+    </tr>
+
+</table>
+<br><br>
+
+
+<style>
+
+body{
+    font-family: Arial;
+    font-size: 18px;
+    margin: 40px;
+}
+
+textarea{
+    width: 100%;
+    height: 45px;
+    resize: none;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Exámenes de laboratorio y gabinete:</h2>
+
+<p>Impresión diagnóstica:</p><br>
+<textarea id="diagnóstica"   placeholder="Posible irritación ocular y disminución visual en ojo derecho."
+style="color: red;"></textarea>
+
+<p>Plan Diagnóstico:</p><br>
+<textarea   id="plan" placeholder="Posible irritación ocular y disminución visual en ojo derecho."
+style="color: blue;"></textarea>
+
+<p>Plan Terapéutico:</p><br>
+<textarea id="terapéutico"   placeholder="Posible irritación ocular y disminución visual en ojo derecho."
+style="color: green;"></textarea>
+<br><br>
+
+<button onclick="enviar()">Guardar</button>
+
+<h2>Nombre y firma de quien realizo la Historiaclinica</h2>
+<img src="./assets/signiture.jpeg" width="304" height="236"> <br><br>
+
+<h2>Integrantes</h2>
+<p>RODRIGO DUARTE</p>
+<br>
+<p>Juan Cadrenas</p>
+<br>
+<p>Valentina Flores</p>
+
+
+
+
+<script>
+function enviar(){
+
+const nombre = document.getElementById("nombre").value;
+const edad = document.getElementById("edad").value;
+const fecha = document.getElementById("fecha").value;
+
+if(nombre ===""|| edad ===""|| fecha === ""){
+document.getElementById("mensaje").innerText = "completa todos los campos";
+return;
+}
+
+const datos = {
+nombre: nombre,
+edad: edad,
+fecha: fecha,
+};
+fetch("https://script.google.com/macros/s/AKfycbwkoFKtgKJ88ytvKJE8eKjJ0sD-993wmsDoaIEr1nKW63-281c-NuQvUS3_l86MTkSF4A/exec",{
+method: "POST",
+body: JSON.stringify(datos),
+mode: "no-cors"
+})
+.then(() => {
+document.getElementById("mensaje").innerText = "Datos enviados";
+})
+.catch(() =>{
+document.getElementById("mensaje").innerText = "Error al enviar";
+});
+
+
+//Limpiar
+document.getElementById("nombre").value = "";
+document.getElementById("edad").value = "";
+document.getElementById("fecha").value = "";
+}
+</script>
+</body>
+</html>
